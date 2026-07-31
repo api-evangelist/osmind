@@ -1,7 +1,27 @@
 aid: osmind
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osmind.png
 name: Osmind
-description: Osmind is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Osmind is an interventional psychiatry platform that powers what it describes as the largest
+  network of interventional psychiatry practices in the United States. The company provides a
+  purpose-built electronic health record (EHR), billing and revenue-cycle management (RCM),
+  measurement-based care and outcomes tracking, and a patient mobile app for practices delivering
+  treatments such as ketamine, Spravato (esketamine), TMS, and other novel and interventional
+  mental-health therapies. Osmind reports serving 1,000+ practices and supporting more than one
+  million treatments delivered. It is a private B2B healthcare SaaS company backed by General
+  Catalyst and other investors. As of this profile, Osmind publishes no public developer API,
+  developer portal, API reference, SDKs, or webhook surface on its public site.
 url: https://raw.githubusercontent.com/api-evangelist/osmind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Mental Health
+- Psychiatry
+- Electronic Health Records
+- EHR
+- Behavioral Health
+- Digital Health
+- HealthTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/osmind-domain-security.yml
+- type: Website
+  url: https://www.osmind.org
+- type: Blog
+  url: https://www.osmind.org/blog
+- type: TermsOfService
+  url: https://www.osmind.org/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.osmind.org/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
